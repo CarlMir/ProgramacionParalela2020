@@ -1,1 +1,1 @@
-Operadores de reducción predefinidos en MPI
+Operadores de reducción predefinidos en MPI.
