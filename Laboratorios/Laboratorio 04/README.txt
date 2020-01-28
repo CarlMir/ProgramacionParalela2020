@@ -1,1 +1,0 @@
-Calculo PI y trapecio
