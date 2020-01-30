@@ -27,8 +27,8 @@ int main(int argc, char *argv[]) {
 
 	// Solo el proceso 0 ejecuta el siguiente bloque
 	if (my_rank == 0) {
-		printf("El tamanio de la fila es: %d\n", rank_sz);
-		printf("Digite el tamanio de la columna: \n");
+		printf("El tamanio de la columnas es: %d\n", rank_sz);
+		printf("Digite el tamanio de la filas: \n");
 		scanf("%d", &rank_y);
 		A[0] = new long[rank_sz * rank_y];
 		for (unsigned int i = 1; i < rank_sz; i++) {
